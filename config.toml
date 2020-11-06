@@ -4,7 +4,7 @@ title = "Cathay DDT Open Source Software"
 theme = "hugograyscale"
 [params]
     # Provide some metadata for search and indexing services
-    description = "A port of the Grayscale theme to Hugo"
+    description = ""
 
 [Author]
     name = "cathayddt"
