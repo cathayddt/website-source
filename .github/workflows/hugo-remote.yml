@@ -1,0 +1,25 @@
+name: hugo-remote
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  REMOTE: cathayddt/cathayddt.github.io.git
+  DEST: public
+  TOKEN: ${{ secrets.TOKEN }}
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Check out main
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+          path: main
+      - name: 🚀 Build and deploy
+        uses: guan840912/hugo-remote@master
