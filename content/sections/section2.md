@@ -4,4 +4,4 @@ weight: 3
 improvecontrast: true
 ---
 
-# ABOUT CATHAY DDT OPEN SOURCE SOFTWARE
+# CATHAY DDT OPEN SOURCE SOFTWARE
